@@ -1,0 +1,47 @@
+{
+  "part_name": "Research demo bracket",
+  "material": "aluminum",
+  "features": [
+    {
+      "id": "face-1",
+      "kind": "planar_face",
+      "quantity": 1,
+      "length_mm": 90,
+      "width_mm": 55
+    },
+    {
+      "id": "hole-1",
+      "kind": "hole",
+      "quantity": 4,
+      "diameter_mm": 8,
+      "depth_mm": 15
+    },
+    {
+      "id": "pocket-1",
+      "kind": "pocket",
+      "quantity": 1,
+      "depth_mm": 7,
+      "length_mm": 40,
+      "width_mm": 25
+    },
+    {
+      "id": "slot-1",
+      "kind": "slot",
+      "quantity": 1,
+      "depth_mm": 4,
+      "length_mm": 36,
+      "width_mm": 8
+    }
+  ],
+  "available_machines": [
+    "cnc_mill",
+    "drill_press"
+  ],
+  "available_tools": [
+    "face_mill",
+    "spot_drill",
+    "twist_drill",
+    "end_mill",
+    "slot_mill"
+  ]
+}

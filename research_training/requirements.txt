@@ -1,0 +1,5 @@
+cadquery-ocp>=7.8,<9
+scikit-learn>=1.5,<2
+pandas>=2.2,<4
+numpy>=2,<3
+joblib>=1.4,<2

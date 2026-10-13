@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+# Node
+node_modules/
+dist/
+# Local outputs
+*.log
+.env
+# CAD uploads are processed in temporary storage; do not commit proprietary models.
+data/private/
+
+# Python environments
+.venv/
+.venv-ml/
+**/.venv/
+__pycache__/
+*.pyc
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Downloaded research datasets
+data/external/
+
+# Generated research artifacts
+research_outputs/
+
+# Model checkpoints
+*.joblib
+*.pt
+*.pth
+
+# Graph cache files
+*.npz
+
+# Temporary backups
+*.backup
+*.backup2

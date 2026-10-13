@@ -1,0 +1,3 @@
+# OPTIONAL: CAD STEP geometry reader, not required for the working routing baseline.
+# Prefer Python 3.11/3.12 with a compatible CadQuery wheel on your OS.
+cadquery>=2.4,<3
